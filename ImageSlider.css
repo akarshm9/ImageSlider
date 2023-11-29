@@ -1,0 +1,51 @@
+nav{
+    height: 8vh;
+    color: white;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+.sliderFrame{
+    padding: 1vw;
+    
+    width: 33vw;
+    height: 36vh;
+    box-shadow: 1px 2px 3px grey;
+    overflow: hidden;
+    position: relative;
+    margin-top: 2vh;
+    transform: translate(30vw,5vh);
+
+}
+.frame{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+button{
+    width: 7vw;
+    height: auto;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    border-radius: 32px;
+    border: 3px solid white;
+    cursor: pointer;
+    transform: translate(25vw,10vh);
+    
+}
+button:hover{
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+}
+.btns{
+    margin-left: 15vw;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+}
+body{
+    background: linear-gradient(45deg,yellow,orange,red,darkred);
+}
